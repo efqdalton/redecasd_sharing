@@ -1,0 +1,48 @@
+# RedeCASD Sharing
+
+An intersting way to share files on LANs developed thinking about ITA's H8 lotting.
+
+## Features
+
+* Simple FTP Server
+* Fulltext search via UDP broadcast
+* Nice handling of file metadata and descriptions
+* MAYBE torrent support
+
+## TODO & Interesting Things to Think About
+
+### Text Data
+
+* Indexing .docx content
+  *stackoverflow.com/questions/3885425/how-to-edit-docx-with-nokogiri-and-rubyzip
+
+### Music Data
+
+* Indexing mp3 id3 tags
+  * id3lib-ruby.rubyforge.org (requires id3lib on MacOS and Linux)
+* Think about Icecast implement radio stations!
+  * www.icecast.org
+
+### Fun Stuff
+
+* Think about torrent integration with Transmission
+  * it-ride.blogspot.com.br/2009/04/transmission-bittorrent-on-headless.html
+  * github.com/dsander/transmission-client
+* Think about torrent support with a ruby client
+  * rubytorrent.rubyforge.org (isn't working!)
+
+### Availability, Stability and More
+
+* Think about UPnP
+  * en.wikipedia.org/wiki/Universal_Plug_and_Play
+  * docs.seattlerb.org/UPnP
+* Think about NAT-PMP
+  * en.wikipedia.org/wiki/NAT_Port_Mapping_Protocol
+  * neugierig.org/software/misc/natpmp
+* Think about mDNS
+  * en.wikipedia.org/wiki/Multicast_DNS
+  * rubygems.org/gems/dnssd
+  * soohwan.blogspot.com.br/2011/02/rubys-mdns-dnssd.html
+* Think about monitoring processes (god, monit?)
+  * godrb.com
+  * mmonit.com/monit
